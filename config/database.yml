@@ -1,0 +1,17 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: sistecharmy_school_development
+  pool: 5
+  host: localhost
+  username: postgres
+  password: 1234
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: sistecharmy_school_test
+  pool: 5
+  host: localhost
+  username: postgres
+  password: 1234
