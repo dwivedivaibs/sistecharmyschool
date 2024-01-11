@@ -1,5 +1,5 @@
 # Change these
-server '107.23.5.194', port: 22, roles: [:web, :app, :db], primary: true
+server '52.87.164.90', port: 22, roles: [:web, :app, :db], primary: true
 
 set :repo_url,'git@github.com:dwivedivaibs/sistecharmyschool.git'
 set :application,     'sistecharmyschool'
