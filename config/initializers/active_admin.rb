@@ -4,7 +4,7 @@ ActiveAdmin.setup do |config|
   # Set the title that is displayed on the main layout
   # for each of the active admin pages.
   #
-  config.site_title = "Sisetawaharmy"
+  config.site_title = "School Site"
 
   # Set the link url for the title. For example, to take
   # users to your main site. Defaults to no link.
@@ -17,23 +17,6 @@ ActiveAdmin.setup do |config|
   # Note: Aim for an image that's 21px high so it fits in the header.
   #
   # config.site_title_image = "logo.png"
-
-  # == Load Paths
-  #
-  # By default Active Admin files go inside app/admin/.
-  # You can change this directory.
-  #
-  # eg:
-  #   config.load_paths = [File.join(Rails.root, 'app', 'ui')]
-  #
-  # Or, you can also load more directories.
-  # Useful when setting namespaces with users that are not your main AdminUser entity.
-  #
-  # eg:
-  #   config.load_paths = [
-  #     File.join(Rails.root, 'app', 'admin'),
-  #     File.join(Rails.root, 'app', 'cashier')
-  #   ]
 
   # == Default Namespace
   #
