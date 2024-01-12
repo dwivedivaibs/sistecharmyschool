@@ -1,5 +1,6 @@
 class HomeController < ApplicationController
   def index
+    @vacancies = Vacancy.where(is_active: true)
     @banner_image = GalleryImage.active.where(section: 'banner').last
     @slider_images = GalleryImage.active.where(section: 'slider')
     @highlights_images = GalleryImage.active.where(section: 'highlight')
@@ -35,6 +36,10 @@ class HomeController < ApplicationController
 
   def mission_vision
   	
+  end
+
+  def vacancy
+    @vacancies = Vacancy.where(is_active: true)
   end
 
   def founders
